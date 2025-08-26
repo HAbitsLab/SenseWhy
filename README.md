@@ -1,11 +1,10 @@
-# SenseWhy
-# SenseWhy: Overeating Behavior Analysis
+# SenseWhy: Overeating Behavior Characterization
 
 This repository contains the analysis pipeline for the **SenseWhy study**, focusing on predicting, clustering, and visualizing patterns of **overeating behavior** using **sensor features** and **EMA (Ecological Momentary Assessment)** data.
 
 The workflow integrates:
 1. **Classification models** (XGBoost, SVM, Naive Bayes, MLP) to predict overeating events.  
-2. **Representation learning + clustering** (MLP hidden layers → UMAP → KMeans/DBSCAN) to identify latent overeating clusters.  
+2. **Representation learning + clustering** (MLP hidden layers → UMAP → KMeans) to identify latent overeating clusters.  
 3. **Post-hoc analysis (z-score polar plots)** to interpret principal indicators driving overeating clusters.
 
 ---
