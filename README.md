@@ -12,7 +12,7 @@ The workflow integrates:
 
 ## Repository Structure
 
-```bash
+
 SenseWhy/
 │
 ├── classification/                # Predictive modeling pipeline
