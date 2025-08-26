@@ -130,7 +130,13 @@ pip install -r requirements.txt
 
   ```bash
   jupyter notebook classification/overeating_sensor_ema_model_eval.ipynb
+  ```
+- **Run UMAP + clustering** (MLP hidden representations → UMAP → KMeans):
+  ```bash
   jupyter notebook clustering/sensewhy_overeating_umap_clusters.ipynb
+   ```
+- **Run post-hoc z-score analysis** (polar plots of principal indicators):
+  ```bash
   jupyter notebook posthoc/overeating_clusters_zscore_posthoc_analysis.ipynb
   ```
 ## How to Cite
