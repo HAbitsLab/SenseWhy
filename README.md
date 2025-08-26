@@ -96,6 +96,29 @@ SenseWhy/
 Clone this repository and install dependencies:
 
 
-git clone https://github.com/YOUR_USERNAME/SenseWhy.git
+git clone https://github.com/HAbitsLab/SenseWhy.git
 cd SenseWhy
+pip install -r requirements.txt
+
+## Requirements
+
+This project was developed and tested on **Python 3.9+**.
+
+**Core dependencies:**
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
+- imbalanced-learn  
+- xgboost  
+- shap  
+- bayesian-optimization  
+- umap-learn  
+- pyCirclize  
+- joblib  
+
+Install all dependencies with:
+
+```bash
 pip install -r requirements.txt
