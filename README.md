@@ -15,20 +15,24 @@ The workflow integrates:
 
 SenseWhy/
 │
-├── classification/                # Predictive modeling pipeline
-│   ├── overeating_sensor_ema_model_eval.ipynb
-│   └── 
+├── classification/                       # Predictive modeling pipeline
+│   └── overeating_sensor_ema_model_eval.ipynb
 │
-├── clustering/                    # Representation learning + UMAP + clustering
-│   ├── sensewhy_overeating_umap_clusters.ipynb
-│   └── 
+├── clustering/                           # Representation learning + UMAP + clustering
+│   └── sensewhy_overeating_umap_clusters.ipynb
 │
-├── posthoc/                       # Z-score analysis & polar plots
+├── posthoc/                              # Z-score analysis & polar plots
 │   ├── overeating_clusters_zscore_posthoc_analysis.ipynb
-│   └── 
+│   └── polarplot_updated_10_21.pdf       # example output
 │
+├── data/ (not tracked)                   # Place input CSV/XLSX files here
+│   ├── overeating_sensor_features.csv
+│   ├── overeating_ema_features.csv
+│   ├── SenseWhy_demographics.csv
+│   ├── SenseWhy_NDSR_Foodtrk_Flagged_220405.csv
+│   └── result_table_merged_EMA_experimental_unstyled.xlsx
 │
-└── README.md                      # This file
+└── README.md
 
 ---
 
