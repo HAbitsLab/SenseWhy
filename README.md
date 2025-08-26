@@ -95,10 +95,11 @@ SenseWhy/
 
 Clone this repository and install dependencies:
 
-
+```bash
 git clone https://github.com/HAbitsLab/SenseWhy.git
 cd SenseWhy
-pip install -r requirements.txt
+
+```
 
 ## Requirements
 
@@ -112,7 +113,6 @@ This project was developed and tested on **Python 3.9+**.
 - scikit-learn  
 - imbalanced-learn  
 - xgboost  
-- shap  
 - bayesian-optimization  
 - umap-learn  
 - pyCirclize  
@@ -122,3 +122,63 @@ Install all dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+
+- **Run classification models** (XGBoost, SVM, Naive Bayes, Logistic Regression):
+
+  ```bash
+  jupyter notebook classification/overeating_sensor_ema_model_eval.ipynb
+  jupyter notebook clustering/sensewhy_overeating_umap_clusters.ipynb
+  jupyter notebook posthoc/overeating_clusters_zscore_posthoc_analysis.ipynb
+  ```
+## How to Cite
+
+If you use this code, please cite both the **SenseWhy paper** and the underlying tools/packages.
+
+### Cite the Paper
+
+Shahabi F, Wei B, Romano C, McCloskey R, Lin AW, Pedram M, Schauer J, Stump T, Alshurafa N.  
+*Unveiling overeating patterns within digital longitudinal data on eating behaviors and contexts.*  
+npj Digital Medicine. 2025 [date TBD].
+
+**BibTeX:**
+
+```bibtex
+@article{Shahabi2025SenseWhy,
+  author    = {Farzad Shahabi and Bowen Wei and Christopher Romano and Rachel McCloskey and
+               Andrew W. Lin and Maryam Pedram and Jennifer Schauer and Taylor Stump and Nabil Alshurafa},
+  title     = {Unveiling overeating patterns within digital longitudinal data on eating behaviors and contexts},
+  journal   = {npj Digital Medicine},
+  year      = {2025},
+  note      = {[date TBD]}
+}
+```
+### Cite Key Tools
+
+- **pyCirclize**  
+  moshi4. (2025, August 23). *pyCirclize (Version 1.10.0)* [Computer software].  
+  GitHub repository: [https://github.com/moshi4/pyCirclize](https://github.com/moshi4/pyCirclize)
+
+- **UMAP**  
+  McInnes, L., Healy, J., & Melville, J. (2018).  
+  *UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.*  
+  arXiv preprint: [arXiv:1802.03426](https://arxiv.org/abs/1802.03426)
+
+- **XGBoost**  
+  Chen, T., & Guestrin, C. (2016).  
+  *XGBoost: A scalable tree boosting system.*  
+  In *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (pp. 785–794).  
+  [https://doi.org/10.1145/2939672.2939785](https://doi.org/10.1145/2939672.2939785)
+
+  ## License
+
+This project is released under the **MIT License**.  
+You are free to use, modify, and distribute the code with proper attribution.  
+
+See the [LICENSE](LICENSE) file for full details.
+
+
+
+
