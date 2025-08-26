@@ -10,6 +10,8 @@ The workflow integrates:
 ---
 
 ## Repository Structure
+
+```bash
 SenseWhy/
 │
 ├── classification/                       # Predictive modeling pipeline
@@ -30,7 +32,7 @@ SenseWhy/
 │   └── result_table_merged_EMA_experimental_unstyled.xlsx
 │
 └── README.md
-
+```
 ---
 
 ## 1. Classification (Prediction of Overeating)
