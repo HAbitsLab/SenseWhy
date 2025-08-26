@@ -10,8 +10,6 @@ The workflow integrates:
 ---
 
 ## Repository Structure
-
-
 SenseWhy/
 │
 ├── classification/                       # Predictive modeling pipeline
