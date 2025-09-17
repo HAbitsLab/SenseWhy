@@ -153,8 +153,11 @@ npj Digital Medicine. 2025 [date TBD].
 **BibTeX:**
 
 ```bibtex
-@article{Shahabi, F., Wei, B., Romano, C. et al. Unveiling overeating patterns within digital longitudinal data on eating behaviors and contexts. npj Digit. Med. 8, 567 (2025). https://doi.org/10.1038/s41746-025-01698-9}
-}
+@article{Shahabi, F., Wei, B., Romano, C. et al. 
+Unveiling overeating patterns within digital longitudinal data on eating behaviors and contexts. 
+npj Digit. Med. 8, 567 (2025). 
+https://doi.org/10.1038/s41746-025-01698-9}
+
 ```
 ### Cite Key Tools
 
