@@ -153,13 +153,7 @@ npj Digital Medicine. 2025 [date TBD].
 **BibTeX:**
 
 ```bibtex
-@article{Shahabi2025SenseWhy,
-  author    = {Farzad Shahabi and Bowen Wei and Christopher Romano and Rachel McCloskey and
-               Andrew W. Lin and Maryam Pedram and Jennifer Schauer and Taylor Stump and Nabil Alshurafa},
-  title     = {Unveiling overeating patterns within digital longitudinal data on eating behaviors and contexts},
-  journal   = {npj Digital Medicine},
-  year      = {2025},
-  note      = {[date TBD]}
+@article{Shahabi, F., Wei, B., Romano, C. et al. Unveiling overeating patterns within digital longitudinal data on eating behaviors and contexts. npj Digit. Med. 8, 567 (2025). https://doi.org/10.1038/s41746-025-01698-9}
 }
 ```
 ### Cite Key Tools
